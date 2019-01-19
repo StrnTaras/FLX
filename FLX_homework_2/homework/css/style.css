@@ -1,5 +1,138 @@
-/* 
+
+#home{
+	justify-content:center;
+	display:block;
+}
+#home:before{
+display:none;
+}
+section .tm-content-box{
+position:relative;
+}
 
 
+#home .tm-banner{
+	background-color: #E8E8E8;
+	position:relative;
+}
+.tm-sidebar{
+	box-shadow: 0px 0px 10px 5px #808080;
+}
+.tm-banner-inner{
+	display:flex;
+	height:100%;
+	background-color:#fff;
+}
 
-*/
+.tm-content-box{
+	display:flex;
+	flex-direction:row;
+	box-shadow: 0px 0px 10px 5px #808080;
+}
+
+.tm-content-box .tm-team-description-container h2{
+	color:gainsboro;
+	letter-spacing:5px;
+}
+.tm-team-description-container{
+width:340px;
+line-height:1.5;
+}
+  p:first-letter{		
+	color:#87CEFA;
+	font-size:24px;
+	}
+	.tm-team-description-container p{
+		text-indent: 1.5em;
+	}
+.tm-team-description-container p:nth-child(2){
+	font-style:italic;
+	font-size:14px;
+}
+.box-bg  h2{
+	color:#87CEFA;
+	font-weight:400;
+}
+/* стилізуємо ховер-ефект на кубиках */
+.box-bg h2:hover{
+	color:#fff; 
+	background-color:#87CEFA;
+}
+/* щоб при наведенні на перший куб зникав псевдоелемент */
+#about.tm-content-box:before{
+	display:none;	
+}
+.heading.tm-content-box div:before{
+	content:"";
+	position:absolute;
+	top: 0;
+	left: 0;
+	border-top: 26px solid #2aabd2;
+	border-right: 130px solid transparent;
+	z-index: 1;
+}
+.padding-medium{
+	position:relative;
+}
+.tm-team-description-container:before{
+	content:"";
+	position:absolute;
+	top: 0;
+	left: 0;
+	border-top: 26px solid #2aabd2;
+	border-right: 130px solid transparent;
+	z-index: 1;
+}
+#tmCarousel{
+	position:relative;
+}
+#tmCarousel:before{
+	content:"";
+	position:absolute;
+	top: 0;
+	left: 0;
+	border-top: 26px solid #2aabd2;
+	border-right: 130px solid transparent;
+	z-index: 1;
+}
+.tm-content-box{
+position:relative;
+}
+
+
+.tm-content-box:before{
+	content:"";
+	position:absolute;
+	top: 0;
+	left: 0;
+	border-top: 26px solid  #2aabd2;
+	border-right: 130px solid transparent;
+	z-index: 1;
+}
+.blocks .tm-content-box:before{
+display:none;
+}
+h2+p{
+	font-style:italic;
+
+}
+
+.padding-medium a:visited{
+text-decoration:underline;
+}
+.padding-medium a:hover{
+	text-decoration:underline;
+	text-decoration-style:double;
+	color:lightblue;
+}
+.padding-medium a{
+color:#000;
+}
+ .text:after{
+	vertical-align:super;
+	content:'New';
+	color:red;
+	font-size:10px;
+}
+
+
