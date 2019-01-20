@@ -35,20 +35,21 @@ display:none;
 	color:gainsboro;
 	letter-spacing:5px;
 }
-.tm-team-description-container{
-width:300px;
-line-height:1.8;
+.tm-content-box:first-child p{
+width:210px;
 }
   p:first-letter{		
 	color:#87CEFA;
 	font-size:24px;
 	}
+	/* what we do */
 	.tm-team-description-container p{
-		text-indent: 1.5em;
+		text-indent:1.5em;
+		line-height:1.8;
 	}
 .tm-team-description-container p:nth-child(2){
 	font-style:italic;
-	font-size:14px;
+	/* font-size:14px; */
 }
 .boxes{
 	width:100%;
@@ -111,6 +112,9 @@ position:relative;
 	border-right:130px solid transparent;
 	z-index: 1;
 }
+.blocks .tm-team-description-container{
+	width:100%;
+}
 .blocks .tm-content-box:before{
 display:none;
 }
@@ -119,9 +123,7 @@ display:none;
 }
 h2+p{
 	font-style:italic;
-
 }
-
 .padding-medium a:visited{
 text-decoration:underline;
 }
