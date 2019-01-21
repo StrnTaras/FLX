@@ -1,4 +1,6 @@
 
+
+
 #home{
 	justify-content:center;
 	display:block;
@@ -39,7 +41,7 @@ width:300px;
 }
 .tm-content-box .tm-team-description-container h2{
 	margin-top:150px;
-width:230px;
+  width:230px;
 }
 p:first-letter{		
 	color:#87CEFA;
@@ -150,10 +152,6 @@ text-decoration:underline;
 .padding-medium a{
 color:#000;
 }
-
- 
-
-
 .box-work{
 	padding:5px;
 }
@@ -187,4 +185,48 @@ font-weight:bold;
  background-color:lightgrey;
 }
 
+@media print{
+	.tm-sidebar,#about,.heading.tm-content-box,.blocks,#ideas,.img-contact-us,#contact,:before{
+		display:none;
+	} 
+	#home{
+		display:flex;
+		justify-content:center;
+		
+	}
+	#home .tm-banner{
+		border:2px lightgrey solid;
+	}
+.flex-item img {
+	width:200px;
+	height:200px;
+	margin-left:425px;
+	margin-top:-420px;
+}
+	.tm-banner-inner{
+		border:none;
+		padding:20px 60px;		
+	}
+	
+	.tm-content-box .tm-team-description-container h2{
+		margin-top:-25px;
+		color:blue;
+		letter-spacing:0;
+	}
+	
+	.tm-content-box .tm-team-description-container{
+		width:350px;
+		margin-left:80px;
+		/* height:400px; */
+	}
+	.tm-main-content{
+		display:flex;
+		flex-direction:column;	
+	}
+	.tm-footer{
+		position:absolute;;
+		left:170px;
+		top:720px;
+	}
 
+}
