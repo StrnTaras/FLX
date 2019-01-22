@@ -1,6 +1,4 @@
 
-
-
 #home{
 	justify-content:center;
 	display:block;
@@ -47,7 +45,6 @@ p:first-letter{
 	color:#87CEFA;
 	font-size:24px;
 	}
-	/* what we do */
 	.tm-team-description-container p{
 		text-indent:1.5em;
 		line-height:1.8;
@@ -62,12 +59,10 @@ p:first-letter{
 	color:#87CEFA;
 	font-weight:400;
 }
-/* стилізуємо ховер-ефект на кубиках */
 .box-bg h2:hover{
 	color:#fff; 
 	background-color:#87CEFA;
 }
-
 #about.tm-content-box:before{
 	display:none;	
 }
@@ -105,7 +100,6 @@ p:first-letter{
 	border-right: 130px solid transparent;
 	z-index: 1;
 }
-
 .tm-content-box{
 position:relative;
 }
@@ -118,7 +112,6 @@ position:relative;
 	border-right:130px solid transparent;
 	z-index: 1;
 }
-
 .blocks .tm-team-description-container{ 
 	 width:100%;
 }
@@ -134,8 +127,6 @@ h2 + p{
 .padding-medium a:visited{
 text-decoration:underline;
 }
-
-
 .text:after{
 	vertical-align:super;
 	content:'New';
@@ -168,12 +159,11 @@ li.box:nth-child(2n){
 	float:right;
 	color:#87CEFA;
 	border-radius:0;
-	border:1px solid #87CEFA;
+	border:1px solid #87CEFA !important;
 	background-color:transparent;
 }
 .submit-btn:hover{
 	background-color:#87CEFA;
-	border-color:#87CEFA;
 }
 .mandatory-field:after{
 content:'*';
