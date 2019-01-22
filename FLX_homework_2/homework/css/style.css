@@ -38,11 +38,11 @@ width:300px;
 }
 .tm-content-box .tm-team-description-container h2{
 	margin-top:150px;
-  width:240px;
+  width:250px;
 }
 p:first-letter{		
 	color:#87CEFA;
-	font-size:24px;
+	font-size:30px;
 	}
 	.tm-team-description-container p{
 		text-indent:1.5em;
@@ -134,8 +134,8 @@ text-decoration:underline;
 	display:inline-block;
 }
 .padding-medium a:hover{
-	text-decoration: double underline;
-	/* text-decoration-style:double; */
+	text-decoration-line:underline;
+	text-decoration-style:double;
 	color:lightblue;
 }
 .padding-medium a{
