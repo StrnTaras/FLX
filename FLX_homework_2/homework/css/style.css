@@ -38,7 +38,7 @@ width:300px;
 }
 .tm-content-box .tm-team-description-container h2{
 	margin-top:150px;
-  width:230px;
+  width:240px;
 }
 p:first-letter{		
 	color:#87CEFA;
@@ -134,8 +134,8 @@ text-decoration:underline;
 	display:inline-block;
 }
 .padding-medium a:hover{
-	text-decoration-line:underline;
-	text-decoration-style:double;
+	text-decoration: double underline;
+	/* text-decoration-style:double; */
 	color:lightblue;
 }
 .padding-medium a{
