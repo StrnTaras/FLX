@@ -34,7 +34,7 @@ section .tm-content-box{
 	letter-spacing:5px;
 }
 .tm-content-box .tm-team-description-container{
-width:300px;
+width:290px;
 }
 .tm-content-box .tm-team-description-container h2{
 	margin-top:150px;
@@ -56,7 +56,7 @@ p:first-letter{
 }
 .box-bg  h2{
 	color:#87CEFA;
-	font-weight:400;
+	/* font-weight:400; */
 }
 .box-bg h2:hover{
 	color:#fff; 
