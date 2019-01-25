@@ -1,0 +1,228 @@
+
+
+$Headers:"Roboto",sans-serif;
+$Ubuntu:"Ubuntu",sans-serif;
+$PostText:"Cantarell",sans-serif;
+$Post_disc:"Helvetica",sans-serif;
+
+
+$fnts:15px;
+$fntsb:24px;
+
+$backgrauncolorhed:url("../img/header_background_v1.jpg");
+$contentBackground:#fff;
+$btns_color:#01acac;
+$bgc_articles:#efefef;
+$color_nav:#fff;
+$color_naw_line:#607d8b;
+$color_h1_head:#fff;
+$postdisc_col:red;
+$color_p_form_posth3:#0097a7;
+
+@mixin hover-efect {
+	outline:1px solid $btns_color;
+	cursor:pointer;
+}
+@mixin h1_sect_style{
+	    text-transform:uppercase;
+			font-family:$Headers;
+			font-size:$fntsb;
+}
+
+body{
+	margin:0;
+	padding:0;
+	background-color:$contentBackground;
+	div.main-wrapper{
+		width:100%;
+		margin:0 auto;
+		header{
+			background-image:$backgrauncolorhed;
+			background-repeat:no-repeat;
+			background-size:100%;
+			height:620px;
+			display:flex;
+			justify-content:space-between;
+			position:relative;
+					section{
+						position:absolute;
+						left:30%;
+						top:40%;
+								a{
+									background-color:$btns_color;
+									margin:20px 0 0 180px;
+									padding:10px 50px;
+									text-decoration:none;
+									color:#fff;
+									text-transform:uppercase;
+									font-family:$Headers;
+									&:hover{
+										@include hover-efect;
+										}
+									}
+									h1{
+										color:$color_h1_head;
+										@include h1_sect_style;
+									}
+					}
+					div.top-wrapper nav{
+						position:absolute;
+						left: 550px;
+						top: 20px;											
+					a{
+							text-decoration:none;
+							color:$color_nav;
+							text-transform:uppercase;
+							font-family:$PostText;
+							font-size:$fnts;
+							font-weight:700;
+							margin:0 85px 0 0;
+							padding:50px  0  0 105px;
+									&:not(:first-child){
+										border-left:2px $color_naw_line solid;
+										
+									}
+						}
+			  }
+		}
+		main div.toolbar input{
+			margin:20px 0 0 1000px;
+			padding:7px 20px;
+			border:1px grey solid;	
+		}
+		main section#list.post-list h1{
+		@include h1_sect_style;
+			font-weight:900;
+			margin:20px 0 0 1140px;
+		}
+		main{
+			display:flex;
+			flex-direction:column;
+			justify-content:center;
+				section article{
+					display:flex;
+					width:80%;
+					margin:0 auto;
+					background-color:$bgc_articles;
+					margin-bottom:20px;
+					height:305px;
+					img{
+						padding:10px;
+						}
+						div .post .post-description{
+							border-bottom:1px #607d8b solid;
+							bottom:60%;
+							width:98%;
+							margin:25px 0 0 0;
+							padding-bottom:15px;
+							color:$postdisc_col;
+							font-size:$fnts;
+							font-family:$Post_disc;					
+						}
+						div .post h3{
+							color:$color_p_form_posth3;
+							margin:5px 0 5px 0;
+							font-family:$Headers;
+							text-transform:uppercase;
+							font-size:$fnts;
+							font-weight:900;				
+						}
+						div .post p{
+							margin-top:0;
+							font-family:$PostText;
+						}
+						div{
+							position:relative;
+						 }					
+				}
+				section#contact h1{
+				  margin: 70px 0 0 900px;
+					@include h1_sect_style;
+					font-weight:900;
+				}
+				section#contact h4{
+					margin: 5px 0 50px 540px;
+					font-family:$Headers;
+					text-transform:uppercase;
+					font-size:$fnts;
+				}
+				section#contact form button{
+					margin:23px 0 20px 935px; 
+					padding:10px 50px;
+					border:none;
+					color:#fff;
+					background-color:$btns_color;
+					text-transform:uppercase;   	
+							&:hover{
+								@include hover-efect;
+							}	
+					}
+		}
+		section.post-list div .btn{
+			position:absolute;
+			left:570px;
+			bottom:40px;
+			padding:10px 50px;
+			border:none;
+			color:#fff;
+			background-color:$btns_color;
+			text-transform:uppercase;
+				&:hover{
+					@include hover-efect;
+				}
+			} 
+			main section#about{
+				width:80%;
+				margin:0 auto;
+				}
+				main section#about.about div h1{
+					@include h1_sect_style;
+					font-weight:900;
+					margin:20px 0 0 930px;
+				}
+				main section#contact{
+				display:flex;
+				 flex-direction:column;
+				 align-items:flex-end;
+					width:80%;
+				 margin:0 auto;
+				 position:relative;
+				}
+				main section#contact form{
+					display:flex;
+					flex-direction:row;
+					flex-wrap:wrap;
+					input#fullname{
+						width:545px;
+						height:30px;
+						}
+						input#emailfild{
+							width:490px;
+							height:30px;
+							margin-left:30px;
+							}
+							p:first-child{
+								position:absolute;
+								color:$color_p_form_posth3;
+								top:130px;
+								left:470px;
+								&:after{
+									content:"*";
+								}
+							 }
+							 p:nth-child(3){
+								position:absolute;
+								color:$color_p_form_posth3;
+								left:970px;
+								top:130px;
+								&:after{
+									content:"*";
+								}
+							 }
+							 p:nth-child(5){
+								margin:30px 0 5px 900px;
+								color:$color_p_form_posth3;
+									}
+	 				}
+	     }
+    }

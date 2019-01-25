@@ -1,0 +1,28 @@
+$Headers:"Roboto",sans-serif;
+$Ubuntu:"Ubuntu",sans-serif;
+$PostText:"Cantarell",sans-serif;
+$Post_disc:"Helvetica",sans-serif;
+
+
+$fnts:15px;
+$fntsb:24px;
+
+$backgrauncolorhed:url("../img/header_background_v1.jpg");
+$contentBackground:#fff;
+$btns_color:#01acac;
+$bgc_articles:#efefef;
+$color_nav:#fff;
+$color_naw_line:#607d8b;
+$color_h1_head:#fff;
+$postdisc_col:red;
+$color_p_form_posth3:#0097a7;
+
+@mixin hover-efect {
+	outline:1px solid $btns_color;
+	cursor:pointer;
+}
+@mixin h1_sect_style{
+	    text-transform:uppercase;
+			font-family:$Headers;
+			font-size:$fntsb;
+}
