@@ -10,11 +10,7 @@ body {
       background-repeat: no-repeat;
       background-size: 100%;
       height: 620px;
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
               justify-content: space-between;
       position: relative; }
       body div.main-wrapper header section {
@@ -63,19 +59,10 @@ body {
       font-weight: 900;
       margin: 20px 0 0 1140px; }
     body div.main-wrapper main {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
+      				display: flex;
               flex-direction: column;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
               justify-content: center; }
       body div.main-wrapper main section article {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
         width: 80%;
         margin: 0 auto;
@@ -148,28 +135,15 @@ body {
       font-weight: 900;
       margin: 20px 0 0 930px; }
     body div.main-wrapper main section#contact {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
-      -webkit-box-align: end;
-          -ms-flex-align: end;
-              align-items: flex-end;
+			flex-direction: column;
+			align-items: flex-end;
       width: 80%;
       margin: 0 auto;
       position: relative; }
     body div.main-wrapper main section#contact form {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: row;
-              flex-direction: row;
-      -ms-flex-wrap: wrap;
+          display: flex;
+          flex-direction: row;
           flex-wrap: wrap; }
       body div.main-wrapper main section#contact form input#fullname {
         width: 545px;

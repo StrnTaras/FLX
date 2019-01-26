@@ -1,23 +1,22 @@
 
 
-$Headers:"Roboto",sans-serif;
-$Ubuntu:"Ubuntu",sans-serif;
-$PostText:"Cantarell",sans-serif;
-$Post_disc:"Helvetica",sans-serif;
+$Headers:"Palatino",serif;
+$PostText:"Book Antiqua",serif;
+$Post_disc:"Palatino Linotype",serif;
 
 
-$fnts:15px;
-$fntsb:24px;
+$fnts:18px;
+$fntsb:26px;
 
-$backgrauncolorhed:url("../img/header_background_v1.jpg");
-$contentBackground:#fff;
-$btns_color:#01acac;
-$bgc_articles:#efefef;
-$color_nav:#fff;
-$color_naw_line:#607d8b;
-$color_h1_head:#fff;
-$postdisc_col:red;
-$color_p_form_posth3:#0097a7;
+$backgrauncolorhed:url("../img/header_background_v2.jpg");
+$contentBackground:#efefef;
+$btns_color:#0401ac;
+$bgc_articles:#ffffff;
+$color_nav:#ff5722;
+$color_naw_line:#ffff;
+$color_h1_head:#ff5722;
+$postdisc_col:#bdbdbd;
+$color_p_form_posth3:#607d8b;
 
 @mixin hover-efect {
 	outline:1px solid $btns_color;
