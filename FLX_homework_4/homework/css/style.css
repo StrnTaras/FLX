@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F3F3F3; }
+  body div.main-container {
+    display: flex;
+    flex-direction: column; }
+    body div.main-container header {
+      background-image: url("../img/sample2.jpg");
+      height: 100%;
+      background-size: 100% 100%;
+      position: relative; }
+      body div.main-container header:after {
+        content: '';
+        position: absolute;
+        border: 100px solid transparent;
+        border-bottom: 0px solid transparent;
+        border-right: 0px solid transparent;
+        border-left: 98vw solid #FFFFFF;
+        top: 87.8%; }
+      body div.main-container header div.top-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; }
+        body div.main-container header div.top-wrapper div.logo {
+          margin: 50px 50px; }
+          body div.main-container header div.top-wrapper div.logo p {
+            text-transform: uppercase;
+            color: #FFFFFF; }
+            body div.main-container header div.top-wrapper div.logo p span {
+              margin: 0 3px 0 3px; }
+        body div.main-container header div.top-wrapper div.login {
+          margin: 50px 50px; }
+          body div.main-container header div.top-wrapper div.login a:first-child {
+            margin-right: 50px; }
+          body div.main-container header div.top-wrapper div.login a {
+            color: #FFFFFF;
+            text-decoration: none; }
+      body div.main-container header div.main-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        margin-top: 190px; }
+        body div.main-container header div.main-wrapper p {
+          margin: -10px; }
+      body div.main-container header div.nav-text nav {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 13%;
+        padding: 5% 0; }
+        body div.main-container header div.nav-text nav a {
+          padding: 7px 40px;
+          border: 2px solid #FFFFFF;
+          background-color: transparent;
+          text-decoration: none;
+          color: #FFFFFF; }
+      body div.main-container header div.nav-text div.p-text {
+        display: flex;
+        justify-content: flex-end; }
+        body div.main-container header div.nav-text div.p-text p {
+          color: #FFFFFF;
+          width: 540px;
+          margin: 0 10px 80px 0;
+          z-index: 3; }
+        body div.main-container header div.nav-text div.p-text p:first-child {
+          width: 280px;
+          margin: 100px 140px 0 0;
+          color: #000000; }
+    body div.main-container main section.text-headers h4 {
+      display: flex;
+      justify-content: center; }
+    body div.main-container div.main-content {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+    body div.main-container div.image {
+      display: flex;
+      flex-direction: column;
+      background-image: url("../img/sample.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 10px;
+      height: 250px;
+      width: 45%; }
+      body div.main-container div.image div {
+        align-self: flex-end;
+        margin: 10px 10px 0 0;
+        border: 2px solid #FFFFFF;
+        font-weight: bold;
+        background-color: #9E9E9E;
+        opacity: 0.5; }
+        body div.main-container div.image div span {
+          padding: 2px;
+          color: #FFFFFF;
+          z-index: 3; }
+      body div.main-container div.image span:nth-child(2) {
+        margin: 190px 0 0 10px;
+        color: #FFFFFF; }
+    body div.main-container div.description {
+      display: flex;
+      flex-direction: column;
+      width: 45%;
+      margin: 0 10px 0 20px; }
+    body div.main-container div.banners {
+      display: flex;
+      justify-content: space-around;
+      margin: 70px 30px; }
+      body div.main-container div.banners div {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        border-left: 1px solid #9E9E9E;
+        border-right: 1px solid #9E9E9E;
+        margin-right: 50px;
+        box-shadow: 0 6px 5px -4px #000000; }
+        body div.main-container div.banners div a {
+          margin: 0 auto;
+          text-decoration: none;
+          font-weight: bold;
+          color: #FFFFFF;
+          background-color: #097774;
+          padding: 3px 75px; }
+    body div.main-container div.subscribe {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin: 50px 10px;
+      position: relative; }
+      body div.main-container div.subscribe div.btn-discrption div.btns {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        margin: 20px 10px; }
+        body div.main-container div.subscribe div.btn-discrption div.btns a:first-child {
+          text-decoration: none;
+          border: 1px solid #000000;
+          padding: 4px 10px;
+          color: #000000;
+          margin-right: 10px; }
+        body div.main-container div.subscribe div.btn-discrption div.btns a:nth-child(2) {
+          background-color: #097774;
+          text-decoration: none;
+          padding: 4px 10px;
+          color: #FFFFFF; }
+      body div.main-container div.subscribe div.btn-discrption div.text-btn {
+        position: absolute;
+        left: 55%;
+        bottom: 10px; }
+    body div.main-container section.contact {
+      display: flex;
+      flex-direction: row;
+      margin: 50px 0 70px 0; }
+    body div.main-container div.block {
+      width: 200px;
+      margin: 0px 30px 0 10px; }
+    body div.main-container div.block:nth-child(4) {
+      margin-left: 70px; }
+    body div.main-container div.block:nth-child(3) p {
+      width: 170px; }
+    body div.main-container div.block:nth-child(4) {
+      width: 260px; }
+      body div.main-container div.block:nth-child(4) div a:first-child {
+        text-decoration: none;
+        border: 1px solid #000000;
+        padding: 4px 10px;
+        color: #000000;
+        margin-right: 10px; }
+      body div.main-container div.block:nth-child(4) div a:nth-child(2) {
+        background-color: #097774;
+        text-decoration: none;
+        padding: 4px 10px;
+        color: #FFFFFF; }
+    body div.main-container footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 10px; }
+      body div.main-container footer span {
+        color: #9E9E9E; }
+      body div.main-container footer div.inf-about a {
+        margin: 10px;
+        text-decoration: none;
+        color: #000000; }
+
+/*# sourceMappingURL=style.css.map */
