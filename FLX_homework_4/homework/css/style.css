@@ -2,6 +2,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: #F3F3F3; }
+  body a {
+    text-decoration: none; }
   body div.main-container {
     display: flex;
     flex-direction: column; }
@@ -13,21 +15,23 @@ body {
       body div.main-container header:after {
         content: '';
         position: absolute;
-        border: 100px solid transparent;
+        border: 152px solid transparent;
         border-bottom: 0px solid transparent;
         border-right: 0px solid transparent;
-        border-left: 98vw solid #FFFFFF;
-        top: 87.8%; }
+        border-left: 98.3vw solid #FFFFFF;
+        top: 85.2%; }
       body div.main-container header div.top-wrapper {
         display: flex;
         flex-direction: row;
-        justify-content: space-between; }
+        justify-content: space-between;
+        height: 350px; }
         body div.main-container header div.top-wrapper div.logo {
           margin: 50px 50px; }
-          body div.main-container header div.top-wrapper div.logo p {
+          body div.main-container header div.top-wrapper div.logo p a {
             text-transform: uppercase;
-            color: #FFFFFF; }
-            body div.main-container header div.top-wrapper div.logo p span {
+            color: #FFFFFF;
+            font-family: "Open Sans", sans-serif; }
+            body div.main-container header div.top-wrapper div.logo p a span {
               margin: 0 3px 0 3px; }
         body div.main-container header div.top-wrapper div.login {
           margin: 50px 50px; }
@@ -35,41 +39,61 @@ body {
             margin-right: 50px; }
           body div.main-container header div.top-wrapper div.login a {
             color: #FFFFFF;
+            font-family: "Open Sans", sans-serif;
             text-decoration: none; }
       body div.main-container header div.main-wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: flex-end;
-        margin-top: 190px; }
+        margin-top: 3%; }
+        body div.main-container header div.main-wrapper h1 a {
+          color: #FFFFFF;
+          font-family: "Open Sans", sans-serif;
+          font-weight: 500;
+          text-transform: uppercase; }
+          body div.main-container header div.main-wrapper h1 a span {
+            margin: 0 14px 0 14px;
+            font-size: 50px; }
         body div.main-container header div.main-wrapper p {
-          margin: -10px; }
+          margin: -10px;
+          color: #FFFFFF;
+          font-family: "Open Sans", sans-serif; }
       body div.main-container header div.nav-text nav {
         display: flex;
         justify-content: space-around;
-        margin-top: 13%;
-        padding: 5% 0; }
+        margin-top: 19%;
+        padding: 0 0 4% 0; }
         body div.main-container header div.nav-text nav a {
           padding: 7px 40px;
           border: 2px solid #FFFFFF;
           background-color: transparent;
           text-decoration: none;
-          color: #FFFFFF; }
+          color: #FFFFFF;
+          font-family: "Open Sans", sans-serif; }
       body div.main-container header div.nav-text div.p-text {
         display: flex;
         justify-content: flex-end; }
         body div.main-container header div.nav-text div.p-text p {
           color: #FFFFFF;
+          font-family: "Open Sans", sans-serif;
           width: 540px;
           margin: 0 10px 80px 0;
-          z-index: 3; }
+          z-index: 3;
+          font-size: 15px; }
         body div.main-container header div.nav-text div.p-text p:first-child {
           width: 280px;
-          margin: 100px 140px 0 0;
-          color: #000000; }
+          margin: 100px 140px 10px 0;
+          color: #000000;
+          font-family: "Open Sans", sans-serif;
+          font-size: 15px; }
     body div.main-container main section.text-headers h4 {
       display: flex;
-      justify-content: center; }
+      justify-content: center;
+      font-family: "Open Sans", sans-serif; }
+      body div.main-container main section.text-headers h4 span {
+        font-weight: 400;
+        margin-right: 5px; }
     body div.main-container div.main-content {
       display: flex;
       flex-direction: row;
@@ -88,51 +112,71 @@ body {
         margin: 10px 10px 0 0;
         border: 2px solid #FFFFFF;
         font-weight: bold;
-        background-color: #9E9E9E;
-        opacity: 0.5; }
+        background-color: rgba(0, 0, 0, 0.5); }
         body div.main-container div.image div span {
           padding: 2px;
-          color: #FFFFFF;
-          z-index: 3; }
+          color: #FFFFFF; }
       body div.main-container div.image span:nth-child(2) {
         margin: 190px 0 0 10px;
-        color: #FFFFFF; }
+        color: #FFFFFF;
+        font-family: "Open Sans", sans-serif; }
     body div.main-container div.description {
       display: flex;
       flex-direction: column;
       width: 45%;
       margin: 0 10px 0 20px; }
+      body div.main-container div.description p {
+        color: #000000;
+        font-family: "Open Sans", sans-serif;
+        font-size: 15px; }
     body div.main-container div.banners {
+      background-color: #FFFFFF;
+      width: 100%;
       display: flex;
       justify-content: space-around;
-      margin: 70px 30px; }
-      body div.main-container div.banners div {
+      flex-wrap: wrap;
+      margin: 70px 0;
+      padding: 70px 0; }
+      body div.main-container div.banners div.content {
         display: flex;
         flex-direction: column;
-        padding: 10px;
+        padding: 1%;
         border-left: 1px solid #9E9E9E;
         border-right: 1px solid #9E9E9E;
         margin-right: 50px;
+        margin-right: 5px;
         box-shadow: 0 6px 5px -4px #000000; }
-        body div.main-container div.banners div a {
+        body div.main-container div.banners div.content a {
           margin: 0 auto;
           text-decoration: none;
           font-weight: bold;
           color: #FFFFFF;
           background-color: #097774;
           padding: 3px 75px; }
+        body div.main-container div.banners div.content p {
+          width: 270px;
+          font-family: "Open Sans", sans-serif;
+          color: #000000;
+          font-size: 15px; }
+      body div.main-container div.banners div:last-child {
+        margin-right: 0px; }
     body div.main-container div.subscribe {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       flex-wrap: wrap;
-      margin: 50px 10px;
-      position: relative; }
+      justify-content: flex-end;
+      font-family: "Open Sans", sans-serif;
+      color: #000000;
+      font-size: 15px; }
+      body div.main-container div.subscribe div.inf-text {
+        margin-left: 10px; }
       body div.main-container div.subscribe div.btn-discrption div.btns {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: flex-end;
-        margin: 20px 10px; }
+        padding: 0 30px;
+        color: #FFFFFF;
+        font-family: "Open Sans", sans-serif; }
         body div.main-container div.subscribe div.btn-discrption div.btns a:first-child {
           text-decoration: none;
           border: 1px solid #000000;
@@ -145,43 +189,62 @@ body {
           padding: 4px 10px;
           color: #FFFFFF; }
       body div.main-container div.subscribe div.btn-discrption div.text-btn {
-        position: absolute;
-        left: 55%;
-        bottom: 10px; }
+        align-self: center; }
+      body div.main-container div.subscribe div.btn-discrption {
+        display: flex;
+        height: 30px;
+        margin-top: 50px; }
     body div.main-container section.contact {
       display: flex;
       flex-direction: row;
-      margin: 50px 0 70px 0; }
-    body div.main-container div.block {
-      width: 200px;
-      margin: 0px 30px 0 10px; }
-    body div.main-container div.block:nth-child(4) {
-      margin-left: 70px; }
-    body div.main-container div.block:nth-child(3) p {
-      width: 170px; }
-    body div.main-container div.block:nth-child(4) {
-      width: 260px; }
-      body div.main-container div.block:nth-child(4) div a:first-child {
-        text-decoration: none;
-        border: 1px solid #000000;
-        padding: 4px 10px;
-        color: #000000;
-        margin-right: 10px; }
-      body div.main-container div.block:nth-child(4) div a:nth-child(2) {
-        background-color: #097774;
-        text-decoration: none;
-        padding: 4px 10px;
-        color: #FFFFFF; }
+      margin: 50px 0 0px 0;
+      padding: 50px 0;
+      background-color: #FFFFFF; }
+      body div.main-container section.contact div.block {
+        width: 200px;
+        margin: 0px 30px 0 10px; }
+      body div.main-container section.contact div.block:nth-child(3) p {
+        width: 170px; }
+      body div.main-container section.contact div.block:nth-child(4) {
+        margin-left: 170px;
+        width: 260px; }
+        body div.main-container section.contact div.block:nth-child(4) div {
+          font-family: "Open Sans", sans-serif;
+          width: 270px; }
+          body div.main-container section.contact div.block:nth-child(4) div a:first-child {
+            text-decoration: none;
+            border: 1px solid #000000;
+            padding: 4px 10px;
+            color: #000000;
+            margin-right: 10px; }
+          body div.main-container section.contact div.block:nth-child(4) div a:nth-child(2) {
+            background-color: #097774;
+            text-decoration: none;
+            padding: 4px 10px;
+            color: #FFFFFF; }
+      body div.main-container section.contact div.block p {
+        font-family: "Open Sans", sans-serif;
+        font-size: 15px; }
+      body div.main-container section.contact div.block h4 a {
+        font-family: "Open Sans", sans-serif;
+        color: #000000; }
     body div.main-container footer {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      margin: 10px; }
-      body div.main-container footer span {
-        color: #9E9E9E; }
+      background-color: #FFFFFF;
+      margin: 0 10px;
+      border-top: 1px solid #9E9E9E;
+      padding: 10px; }
+      body div.main-container footer span a {
+        color: #9E9E9E;
+        font-family: "Open Sans", sans-serif;
+        font-size: 15px; }
       body div.main-container footer div.inf-about a {
-        margin: 10px;
+        margin: 0px 10px;
         text-decoration: none;
-        color: #000000; }
+        color: #000000;
+        font-family: "Open Sans", sans-serif;
+        font-size: 15px; }
 
 /*# sourceMappingURL=style.css.map */
