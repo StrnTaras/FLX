@@ -10,7 +10,6 @@
 	--bg-footer-color: #162b4d;
 	--logo:#9b2b4d;
 }
-
 body {
 	font-family:'Roboto',sans-serif;
 	margin:0;
@@ -50,6 +49,9 @@ div.main-wrap{
 	display:flex;
 	flex-direction:column;
 }
+div.main-wrap header div.icon-menu{
+	display:none;
+}
 div.main-wrap header div.logo{
    margin-left:30px;
 } 
@@ -70,115 +72,158 @@ div.main-wrap header div.menu nav a{
 	color:var(--link);
 	margin-right:50px;
 }
+div.main-wrap header div.menu nav a:first-child:hover{
+	            outline:30px solid #283d5f;
+               background-color:#283d5f; 
+}
+div.main-wrap header div.menu nav a:nth-child(2):hover{
+	outline:30px solid #283d5f;
+	 background-color:#283d5f; 
+}
+
+div.main-wrap header div.menu nav a:nth-child(3):hover{
+	outline:30px solid #283d5f;
+	 background-color:#283d5f; 
+}
+
+div.main-wrap header div.menu nav a:last-child:hover{
+	outline:30px solid #283d5f;
+	 background-color:#283d5f; 
+}
+
 
    /* main part */
-section.container{
+div.container{
 	display:flex;
 	flex-direction:row;
 	width:80%;
 	margin:0 auto;
 }
-section.container main {
+div.container main {
 	width:70%;
 	display:flex;
 	flex-direction:row;
 	flex-wrap:wrap;
 	padding:30px 30px 30px 0;
 }
-section.container main div.block{
-	width:50%;	
-	/* display:flex;
-	flex-direction:column;
-	justify-content:flex-start; */
+div.container main div.block{
+	width:50%;
 }
-section.container main div.block div:first-child{
+div.container main div.block div:first-child{
 	height:100%;
 }
-/* section.container main div.block div img{
-	width:100%;
-} */
 
 /* послідній контейнер */
-section.container main div.block:last-child{
+div.container main div.block:last-child{
 width:100%;
 }
-section.container main div.block:nth-child(2){
+div.container main div.block:nth-child(2){
    background-color:#B71757;
 }
-section.container main div.block:nth-child(3){
+div.container main div.block:nth-child(3){
 	background-color:#0D7E71;
 }
-section.container main div.block:nth-child(6){
+div.container main div.block:nth-child(6){
 background-color:#b1660e;
 }
-section.container main div.block:nth-child(7){
+div.container main div.block:nth-child(7){
 	background-color:#d12767;
 	}
-	section.container main div.block:last-child{
-		background-color:#2d95bb;
+	div.container main div.block:last-child{
+		background-color:#2d95bb;		
 		}
-		section.container main div.block div.post h4{
+		div.container main div.block div.post h4{
 			color:#ffff;
 			font-weight:300;
 			font-size:30px;
-			width:70%;
-			margin:0;
+			width:52%;
+			margin:30px 0 0 0;
 		}
-
-		section.container main div.block div p{
+		div.container main div.block:last-child div.post h4{
+			width:60%;
+			padding-bottom:3%;
+			margin-left:0;
+	 }
+	 div.container main div.block:last-child div.post p{
+		padding-bottom:3%;
+	 }
+	 div.container main div.block div p{
 			color:#ffff;
 			width:80%;
 			font-weight:300;
-			font-size:12px;
-			opacity:0.7;
-			margin:35px 0 50px 0;
+			font-size:15px;
+			opacity:0.7;	
 		}
-		section.container main div.block div.post div.date-box p{
+		div.container main div.block div.post div.date-box p{
 			margin:0;	
 			font-size:18px;
 			font-weight:300;
 			opacity:0.4;
 			color:#fff;	
 		}
-
-		section.container main div.block div.post{
+		div.container main div.block div.post{
 				display:flex;
-				flex-direction:column;
-				justify-content:flex-start;
-				margin-left:7%;				
+				flex-wrap:wrap;
+				justify-content:space-between;
+				margin-left:7%;								
 		}
-		section.container main div.block div.post div.date-box{
-			align-self:flex-end;
+		div.container main div.block div.post:hover{
+			cursor:pointer;
+			filter:opacity(50%);
+		}
+		div.container main div.block div img:hover{
+			cursor:pointer;
+			filter:opacity(0.5);
+		}
+		div.container main div.block div.pincolor:hover{
+			background-color:pink;
+		}
+		div.container main div.block div.post div.date-box{
+			display:flex;
+			flex-direction:column;
+			flex-wrap:wrap;
 			padding:5px;
-			
+			height:45%;		
 		}
-		section.container main div.block div.post div.date-box span{
+		div.container main div.block div.post div.date-box span{
 			font-size:35px;
 			font-weight:300;
 			opacity:0.4;
 			color:#fff;
 		}
-		
-	
-
-section.container aside{
+div.main-wrap div.container aside{
 	width:30%;
-	/* border:1px solid red; */
 	display:flex;
 	flex-direction:column;
 }
-section.container aside div{
-	/* width:50%; */
+div.main-wrap div.container aside div{
+background-color:#ffffff;
 }
-section.container aside div img{
+div.main-wrap div.container aside div:first-child{
+	margin:30px 0 30px 0;
+}
+div.main-wrap section.container aside div img{
 	width:100%;
 	/* border:1px solid red; */
 }
-
-
+div.main-wrap div.container aside div div.content{
+padding:30px;
+}
+div.main-wrap div.container aside div div.content h4{
+	font-weight:500;
+	font-size:24px;
+	margin:0 auto;
+	width:70%;
+	}
+	div.main-wrap div.container aside div div.content p{
+		padding:10px;
+		font-weight:300;
+		font-size:18px;
+		margin:0 auto;
+		}
 div.main-wrap footer div:first-child{
 	margin-left:35px;
-	width:500px;
+	width:50%;
 }
 div.main-wrap footer div:first-child p:first-child{
 	margin-bottom:0;
@@ -186,13 +231,11 @@ div.main-wrap footer div:first-child p:first-child{
 div.main-wrap footer div:first-child p a{
 	color:var(--link);
 	font-weight:100;
-	opacity:0.5;
-	
+	opacity:0.5;	
 }
 div.main-wrap footer div:first-child p:last-child{
 	margin-top:0;
 }
-
 div.main-wrap footer div:last-child{
 	margin-right:35px;
 }
@@ -203,9 +246,160 @@ div.main-wrap footer div:last-child p a{
 }
 div.main-wrap footer div:last-child p:last-child{
 	margin-top:0;
-
 }
 div.main-wrap footer div:last-child p:first-child{
 	margin-bottom:0;
 }
+@media only screen and (max-width: 768px){
+.footer-header{
+	background-color:var(--bg-color--header);
+	margin-bottom:10px;
+	width:95%;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+div.main-wrap header div.icon-menu{
+	display:block;
+	color:#ffffff;
+	margin:10px 0 0 0;
+	font-size:24px;
+}
+div.container{
+	display:flex;
+	flex-direction:row;
+	width:95%;
+	margin:0 auto;
+}
+div.main-wrap div.container main{
+	width:60%;
+}
+div.container main div.block{
+	width:100%;
+}
+.footer-header{
+	justify-content:center;
+	align-items:center;
+}
+div.main-wrap header div.menu nav a{
+display:none;
+}
 
+div.container main div.block div.post{
+	position:relative;
+
+}
+div.container main div.block div.post p{
+	position:relative;
+  padding-bottom:80px;
+}
+div.container main div.block div.amazing_travel_blog p{		
+					 margin:30px;
+			}
+			div.container main div.block:last-child p{
+						 margin-bottom:75px;					 
+				}
+				div.container main div.block div.post div.date-box{
+	position:absolute;
+	top:80%;
+	left:35%;
+}
+div.container main div.block div.post div.date-box{
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	height:50%;		
+}
+
+/* aside */
+div.main-wrap div.container aside{
+	width:40%;
+	display:flex;
+	flex-direction:column;
+}
+div.main-wrap div.container aside div div.content{
+	padding:10px;
+	}
+	div.main-wrap div.container aside div div.content h4{
+		font-weight:500;
+		font-size:18px;
+		margin:0 auto;
+		width:90%;
+		}
+		div.main-wrap div.container aside div div.content p{
+			padding:5px;
+			font-weight:300;
+			font-size:12px;
+			margin:0 auto;
+			}
+			footer{
+				padding-bottom:5px;
+			}
+			div.main-wrap footer div:first-child{
+				display:flex;
+				width:90%;
+				flex-direction:column;
+				align-items:center;
+				margin:0;
+			}
+		
+			div.main-wrap footer div:first-child p:first-child{
+			margin:20px 0 0px 0;
+			text-align:center;
+			}
+			div.main-wrap footer div:first-child p:last-child{
+				margin: 0 0 3px 0;
+				text-align:center;
+				}
+			div.main-wrap footer div:last-child{
+				display:flex;
+				flex-direction:column;
+				align-items:center;
+				margin-bottom:10px;
+			}
+			div.main-wrap footer div:last-child p:last-child{
+				margin:0px;
+			}
+			div.main-wrap footer div:last-child p:first-child{
+				margin:0px;
+			}
+}
+@media only screen and (max-width: 480px){
+	section.container{
+		display:flex;
+		flex-direction:column;
+		width:95%;
+		margin:0 auto;
+	}
+	div.main-wrap div.container main{
+		width:100%;
+		padding:0;
+	}
+	div.container main div.block div.post div.date-box{
+		position:absolute;
+		top:73%;
+		left:35%;
+	}
+	div.container main div.block div.amazing_travel_blog p{
+		margin-bottom:10px;	
+}
+	div.main-wrap div.container aside{
+		width:100%;
+		display:flex;
+		flex-direction:column;
+	}
+	div.main-wrap div.container aside div:first-child{
+		margin:0px 0 30px 0;
+	}
+	div.main-wrap footer div:first-child p:last-child{
+	display:flex;	
+	text-align:center;
+		}	
+		div.main-wrap footer div:first-child{
+			width:90%;
+		}
+		div.main-wrap footer div p{
+			font-size:15px;
+		}
+
+}
