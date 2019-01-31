@@ -2,19 +2,19 @@
  * Feel free to change name of colors if you need it
  * Feel free to add new colors if you need it
  */
-:root {
+/* :root {
   --bg-color--dark: #0b192f;
   --bg-color--header: #162b4d;
   --link: #fff;
   --link--hover: #b8b8b8;
 	--bg-footer-color: #162b4d;
 	--logo:#9b2b4d;
-}
+} */
 body {
 	font-family:'Roboto',sans-serif;
 	margin:0;
 	padding:0;
-	background-color:var(--bg-color--dark);
+	background-color: #0b192f;
   text-decoration:none;
 }
 body a{
@@ -37,7 +37,7 @@ body a{
 }
 
 .footer-header{
-	background-color:var(--bg-color--header);
+	background-color:#162b4d;
 	margin:0 auto;
 	width:80%;
 	display:flex;
@@ -56,20 +56,19 @@ div.main-wrap header div.logo{
    margin-left:30px;
 } 
 div.main-wrap header div.logo h1 a{
-		color:var(--link);
+		color:#fff;
 		font-weight:300;
 		text-decoration:none;
 }
 div.main-wrap header div.logo h1 a span{
-	color:var(--logo);
-	font-size:300;
+	color:#9b2b4d;
 }
 div.main-wrap header div.menu{
 	margin-right:30px;
 }
 div.main-wrap header div.menu nav a{
 	text-decoration:none;
-	color:var(--link);
+	color:#fff;
 	margin-right:50px;
 }
 div.main-wrap header div.menu nav a:first-child:hover{
@@ -229,7 +228,7 @@ div.main-wrap footer div:first-child p:first-child{
 	margin-bottom:0;
 }
 div.main-wrap footer div:first-child p a{
-	color:var(--link);
+	color:#fff;
 	font-weight:100;
 	opacity:0.5;	
 }
@@ -240,7 +239,7 @@ div.main-wrap footer div:last-child{
 	margin-right:35px;
 }
 div.main-wrap footer div:last-child p a{
-	color:var(--link);
+	color:#fff;
 	font-weight:100;
 	opacity:0.5;
 }
@@ -252,7 +251,6 @@ div.main-wrap footer div:last-child p:first-child{
 }
 @media only screen and (max-width: 768px){
 .footer-header{
-	background-color:var(--bg-color--header);
 	margin-bottom:10px;
 	width:95%;
 	display:flex;
