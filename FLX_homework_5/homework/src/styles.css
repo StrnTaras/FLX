@@ -38,6 +38,10 @@ div.main-wrap{
 }
 div.main-wrap header div.icon-menu{
 	display:none;
+	color:#fff;
+}
+div.main-wrap header div.icon-menu a{
+	color:#ffff;
 }
 div.main-wrap header div.logo{
    margin-left:30px;
