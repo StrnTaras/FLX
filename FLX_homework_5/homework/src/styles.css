@@ -4,7 +4,6 @@ body {
 	margin:0;
 	padding:0;
 	background-color: #0b192f;
-  text-decoration:none;
 }
 body a{
 	text-decoration:none;
@@ -24,7 +23,6 @@ body a{
 .post-5 {
 	background: #2d95bb;
 }
-
 .footer-header{
 	background-color:#162b4d;
 	margin:0 auto;
@@ -68,19 +66,14 @@ div.main-wrap header div.menu nav a:nth-child(2):hover{
 	outline:30px solid #283d5f;
 	 background-color:#283d5f; 
 }
-
 div.main-wrap header div.menu nav a:nth-child(3):hover{
 	outline:30px solid #283d5f;
 	 background-color:#283d5f; 
 }
-
 div.main-wrap header div.menu nav a:last-child:hover{
 	outline:30px solid #283d5f;
 	 background-color:#283d5f; 
 }
-
-
-   /* main part */
 div.container{
 	display:flex;
 	flex-direction:row;
@@ -100,8 +93,6 @@ div.container main div.block{
 div.container main div.block div:first-child{
 	height:100%;
 }
-
-/* послідній контейнер */
 div.container main div.block:last-child{
 width:100%;
 }
@@ -222,7 +213,6 @@ div.main-wrap div.container aside div:first-child{
 }
 div.main-wrap div.container aside div img{
 	width:100%;
-	/* border:1px solid red; */
 }
 div.main-wrap div.container aside div div.content{
 padding:30px;
@@ -299,7 +289,6 @@ div.main-wrap div.container main{
 	width:60%;
 	display:flex;
 }
-
  main div.block:first-child{
 	order:1;
 }
@@ -336,7 +325,6 @@ div.container main div.block div.post{
 	position:relative;
 }
 div.container main div.block div.post p{
-	/* position:relative; */
   padding-bottom:80px;
 }
 div.container main div.block:nth-child(3) div.post{
@@ -349,7 +337,6 @@ div.container main div.block:nth-child(3) div.post{
 	justify-content:flex-start;
 	margin-left:7%;
  }
-
 	div.container main div.block:last-child p{
 					margin-bottom:75px;					 
 		}
@@ -431,9 +418,6 @@ div.container main div.block:nth-child(3) div.post{
 		top:73%;
 		left:35%;
 	}
-	/* div.container main div.block div.amazing_travel_blog p{
-		margin-bottom:10px;	
-} */
 	div.main-wrap div.container aside{
 		width:100%;
 		display:flex;
@@ -452,5 +436,4 @@ div.container main div.block:nth-child(3) div.post{
 		div.main-wrap footer div p{
 			font-size:15px;
 		}
-
 }
