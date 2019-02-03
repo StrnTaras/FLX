@@ -1,15 +1,4 @@
-/*
- * Feel free to change name of colors if you need it
- * Feel free to add new colors if you need it
- */
-/* :root {
-  --bg-color--dark: #0b192f;
-  --bg-color--header: #162b4d;
-  --link: #fff;
-  --link--hover: #b8b8b8;
-	--bg-footer-color: #162b4d;
-	--logo:#9b2b4d;
-} */
+
 body {
 	font-family:'Roboto',sans-serif;
 	margin:0;
@@ -308,8 +297,6 @@ div.container main div.block div.post div.date-box{
 	flex-wrap:wrap;
 	height:50%;		
 }
-
-/* aside */
 div.main-wrap div.container aside{
 	width:40%;
 	display:flex;
@@ -339,8 +326,7 @@ div.main-wrap div.container aside div div.content{
 				flex-direction:column;
 				align-items:center;
 				margin:0;
-			}
-		
+			}	
 			div.main-wrap footer div:first-child p:first-child{
 			margin:20px 0 0px 0;
 			text-align:center;
@@ -363,7 +349,7 @@ div.main-wrap div.container aside div div.content{
 			}
 }
 @media only screen and (max-width: 480px){
-	section.container{
+	div.container{
 		display:flex;
 		flex-direction:column;
 		width:95%;
