@@ -10,17 +10,13 @@ window.onload=function(){
 			alert("Invalid input data");
 			return;
 		}
+		const Round=(n)=>{
+			return(Math.floor(n*100)/100);
+		}	
 		let discount=num/100*percent;
 		let saved=num-discount;
-		alert("Price widthout discount:"+num+"\nDiscount:"+discount+"%"+
-		"\nPrice width discount:"+saved+"\nSave:"+discount);
-	
-	let number=2.1578746;
-	const Round=(n)=>{
-		alert(Math.floor(n*100)/100);
-	}
-	Round(0.00123);
-	
+		alert("Price widthout discount:"+num+"\nDiscount:"+percent+"%"+
+		"\nPrice width discount:"+Round(saved)+"\nSave:"+Round(discount));	
 	}
 	CalcolateTotalPrice();
 }
