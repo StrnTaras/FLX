@@ -22,7 +22,7 @@ alert("X1= "+x1+ "\n Х2= "+x2);
 let x1=-b/(2*a);
 alert("X1= "+x1);
 } else if (D<0){
-alert("no solution");
+alert("No solution");
     }
 	}
 	QuadraticEquation();
