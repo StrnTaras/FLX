@@ -3,7 +3,6 @@
 			if(!login||login===''){
 				alert("Canceled"); 
 			} else if(login.length<4){
-				console.log(login.length);
         alert("I don't know any users having name length less than 4 symbols");
 			}else if(login!=="User"&&login!=="Admin"){
 				alert("I don’t know you");
