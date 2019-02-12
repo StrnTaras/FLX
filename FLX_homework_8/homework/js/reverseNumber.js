@@ -1,22 +1,10 @@
-const ReverseNumber=function(n){
-	let arr=[];
-	let a=arguments;	
-for(let i=0;i<a.length;i++){
-	arr.push(a[i]);
+const ReverseNumber=function(){
+		let	mas=[];
+	for(let i=arguments.length-1;i>=0;i--){
+	if(!isNaN(arguments[i])) {
+		mas+=arguments[i];		
+			} 			   
 		}
-		let str=arr.toString().split("");
-		console.log(str);
-		// console.log(arr);
-     str.forEach(function(item,i){
-		if(item==="-"){
-		let newstr=str.slice(1,6);
-	console.log(newstr);
-	console.log(newstr.reverse());
-		}else{
-	 
-//  console.log(arr);
-   }
-		 })
-		
-  }
+		console.log(mas);	
+	}		
 ReverseNumber(-1,3,5);

@@ -1,12 +1,12 @@
 
 const Pipe_=function(){
-for(let i=1;i<arguments.length;i++){
-	arguments[i](arguments[0]);
-			}	
-
-	  }
-function Func(n){
-	console.log(n+1);
-	return Func(n+1);
-  }
-Pipe_(1,Func,Func);
+		let argLength=arguments.length-1;
+		if(argLength>=2){
+			arguments[0]=argLength;
+		}
+		console.log(arguments[0+1](arguments[0]));	
+				}
+				function Func(n){	
+					return n+1;
+						}
+Pipe_(1,Func,Func,Func);
