@@ -85,10 +85,7 @@ filterArray([2, 5, 8], function(el) {
 	return el > 3;
 	}) // returns [5, 8]
 
-	
- 
-		//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 5
-	//Write function, which returns amount of people, who are over 18. Reuse function from task 4
+	//5.Write function, which returns amount of people, who are over 18. Reuse function from task 4
 		//// returns 3
 				const getAmountOfAdultPeople=function(obj){ 
 
@@ -98,7 +95,7 @@ filterArray([2, 5, 8], function(el) {
 					}												
 			getAmountOfAdultPeople(data);
 
-//Write function, which returns array of names of people, who are over 18 , 
+//6.Write function, which returns array of names of people, who are over 18 , 
 //their favorite fruit is banana and their eye color is green. Reuse functions from task 3 and 4.
 
     const getGreenAdultBananaLovers=function(obj){
@@ -114,7 +111,6 @@ filterArray([2, 5, 8], function(el) {
 		
 
 //  7. Write function, which returns array of keys of an object.
-
   // returns [“keyOne”, “keyTwo”, “keyThree”]
  
  const Keys=function(obj){
@@ -140,7 +136,6 @@ filterArray([2, 5, 8], function(el) {
 	}
 	Values({keyOne: 1, keyTwo: 2, keyThree: 3})
 
-	
 //	9. Write function, which returns formatted date.
 	//showFormattedDate(new Date('2019-01-27T01:10:00')) // returns ‘Date: 27 of Jan, 2019’
   //  every month should be showed as 3 letters (e.g. Feb, Apr or Dec)
@@ -158,14 +153,12 @@ console.log(text)
 }
 showFormattedDate(new Date('2019-01-27T01:10:00'));
 
-
 //10. Write function, which returns true if Year is even, otherwise returns false
 //isEvenYear(new Date('2019-01-27T01:10:00')) // false
   const isEvenYear=function(date){
       return console.log(date.getFullYear()%2===0);
 	}
 	isEvenYear(new Date('2019-01-27T01:10:00'))
-
 
 //	11. Write function, which returns true if Month is even, otherwise returns false
 const IsEvenMonth=function(date){	
