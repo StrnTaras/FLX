@@ -18,7 +18,7 @@ module.exports = {
 		"no-extra-bind": "error",
 		"no-floating-decimal": "error",
 		"no-lone-blocks": "error",
-		"no-magic-numbers": ["error", { ignore: [1] }],
+		"no-magic-numbers": ["error", { ignore: [18] }],
 		"no-multi-spaces": "error",
 		"no-new": "error",
 		"no-return-assign": "error",
