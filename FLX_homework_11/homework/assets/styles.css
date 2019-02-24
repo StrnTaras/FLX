@@ -1,2 +1,127 @@
 /* Your styles goes here */
+body{
+	margin:0;
+	padding:0;
+}
+ul{
+	list-style-type:none;
+}
+.visible{
+	display:none;
+}
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(MaterialIcons-Regular.woff2) format('woff2'),
+       url(MaterialIcons-Regular.woff) format('woff'),
+       url(MaterialIcons-Regular.ttf) format('truetype');
+}
 
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+
+
+body div#root{
+	border:2px grey solid;
+  margin:50px; 
+}
+body div#root div.head{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+  justify-content:flex-start;
+}
+body div#root div.head h1{
+ width:100%;
+ 
+ text-align:center;
+ margin:50px 0 50px 0;
+}
+body div#root div.head input:nth-child(2){
+	width:80%;
+	border:2px #000 solid;
+	padding:3px;
+	margin:0 0 20px 50px;
+	border-radius:3px;
+}
+body div#root div.head input:nth-child(3){
+	margin:0 0 20px 15px;
+	border-radius:3px;
+	background-color:#000;
+	color:#fff;
+	font-weight:bold;
+	font-size:20px;
+	border:1px #000 solid;
+	
+}
+body div#root hr {
+		width:86%;
+		border: none; 
+		background-color:#000; 
+		color:#000; 
+		height: 2px;
+		margin-left:30px;
+}
+body div#root div.container{
+	display:flex;
+	flex-direction:column-reverse;
+}
+body div#root div.container ul{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+  /* justify-content:space-between; */
+}
+body div#root div.container ul li{
+
+	display:flex;
+	justify-content:flex-start;
+	flex-direction:row;
+	width:95%;
+	/* margin:5px,100px 5px 0; */
+}
+body div#root div.container ul li div.wrapper{
+	width:87%;
+}
+body div#root div.container ul li i{
+cursor:pointer;
+}
+body div#root div.container ul li div.cont{
+
+	}
+	body div#root div.container ul li input[type=checkbox]{
+      visibility:hidden;
+	}
+body div#root div.container img{
+width:100px;
+height:100px;
+align-self:center;
+margin:150px 0 20px 0;
+}
