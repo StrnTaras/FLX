@@ -1,2 +1,39 @@
-/* Your styles go here */
+body{
+	margin:0;
+	padding:0;
+}
+div#root h1{
+display:flex;
+justify-content:center;
+}
+div#root{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
+div#root input{
+	width:20%;
+	margin:0 auto;
+}
+div#root input[type="text"]{
+width:25%;
+}
+div#root p{
+	font-size:20px;
+	font-weight:400;
+	margin:10px auto;
+}
+div#root div.wrapforbtn{
+	margin:0 auto;
+	width:29%;
+	display:flex;
+}
+div#root div.wrapforbtn input:first-child{
+width:40%;
+}
+div#root div.wrapforbtn input:nth-child(2){
+	width:40%;
+
+	}
+
 
